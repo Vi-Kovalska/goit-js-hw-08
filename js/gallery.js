@@ -74,7 +74,7 @@ const images = [
       alt="${img.description}"
     />
   </a>
-</li>`);
+</li>`).join("");
 
 const menuGallery = document.querySelector(".gallery");
 menuGallery.innerHTML = markup;
